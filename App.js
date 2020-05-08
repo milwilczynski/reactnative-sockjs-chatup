@@ -18,7 +18,7 @@ export default class App extends React.Component {
   };
   /*
   static propTypes = {
-    url: 'http://192.168.1.110:840/chat',
+    url: 'http://192.168.1.110:8040/chat',
     topics: ['public'],
     onConnect: PropTypes.func,
     onDisconnect: PropTypes.func,
@@ -50,8 +50,8 @@ export default class App extends React.Component {
 
   sendMsg() {
     var chatMessage = {
-      sender: 'ziomek',
-      content: 'skurwol',
+      sender: 'User2',
+      content: 'A u mnie wszystko w porzadku co u Ciebie?',
       type: 'CHAT',
     };
 
