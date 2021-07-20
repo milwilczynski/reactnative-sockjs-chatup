@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "react": "16.11.0",
-    "react-native": "0.62.2",
+    "react-native": "0.62.3",
     "react-native-websocket": "^1.0.2",
     "react-stomp-client": "^1.2.0",
     "sockjs": "^0.3.20",
